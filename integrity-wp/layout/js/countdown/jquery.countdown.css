@@ -1,0 +1,30 @@
+/**
+ * jQuery Countdown
+ *
+ * Basic styles for a countdown timer. Feel free to write you own. These are
+ * here really for demo purposes only.
+ */
+.ewf-countdown {
+	overflow: hidden;
+	display: table;
+	margin-bottom: 25px;
+}
+.ewf-countdown > div {
+	display: table-cell;
+	padding-right: 20px;
+}
+.ewf-countdown > div > span {
+	display: block;
+	text-align: right;
+	font-family: sans-serif;
+}
+
+.ewf-countdown span.count {
+	font-size: 48px;
+	line-height: 48px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.ewf-countdown span.title {
+	
+}

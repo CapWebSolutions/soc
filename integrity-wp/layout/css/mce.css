@@ -1,0 +1,104 @@
+/* ==========================================================================
+   =Custom Lists
+   ========================================================================== */
+
+	/**
+ 	 * Custom lists
+ 	 *
+	 * 1. unstyled list
+	 * 2. list with squares for bullets
+	 * 3. list with discs for bullets
+	 *
+	 */
+	 
+	ul.unstyled { list-style-type: none; } /* 1 */
+	ul.square { list-style-type: square; } /* 2 */
+	ul.circle { list-style-type: circle; } /* 3 */
+	
+	/**
+ 	 * FontAwesome lists
+ 	 *
+	 * 1. Check list
+	 * 2. Square check list
+	 * 3. Fill circle list
+	 * 4. Square list
+	 * 5. Diamond list
+	 *
+	 */
+	 
+	ul.check,								/* 1 */
+	ul.square-check,						/* 2 */
+	ul.fill-circle,							/* 3 */
+	ul.square,								/* 4 */
+	ul.diamond { list-style: none; }		/* 5 */	
+	
+	ul.check li:before,
+	ul.square-check li:before { 
+		position: relative;
+		top: -1px;
+		margin-right: 15px;
+		color: #4fb7ff;
+		font-family: 'FontAwesome';
+		font-size: 14px;
+	}
+	
+	ul.check li:before { content: ""; }
+	
+	ul.square-check li:before {
+		top: 2px;
+		font-size: 18px;
+		content: ""; 
+	}
+	
+	ul.fill-circle li:before {
+		position: relative;
+		top: -1px;
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		margin-right: 15px; 
+		background-color: #4fb7ff;
+		content: "";
+	}
+	
+	ul.square li:before {
+		position: relative;
+		top: 4px;
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		border-radius: 3px;
+		margin-right: 15px; 
+		background-color: #4fb7ff;
+		content: "";
+	}
+	
+	ul.diamond li:before {
+		position: relative;
+		top: 4px;
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		margin-right: 15px; 
+		background-color: #4fb7ff;
+		content: "";
+		-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+	}
+	
+	ul.check li,
+	ul.square-check li,
+	ul.fill-circle li,
+	ul.square li { margin-bottom: 10px; }
+	
+	ul.diamond li {
+		margin-bottom: 25px;
+		font-size: 18px; 
+	}
+	
+	ul.check li:last-child,
+	ul.square-check li:last-child,
+	ul.fill-circle li:last-child,
+	ul.square li:last-child,
+	ul.diamond li:last-child { margin-bottom: 0; }

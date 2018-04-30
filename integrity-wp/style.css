@@ -1,0 +1,19 @@
+/*
+Theme Name: Integrity WordPress Theme
+Theme URI: http://themeforest.net/user/bitpub/portfolio
+Description: Modern and well structured, Integrity is a great choice for businesses needing a good looking, professional website.
+Author: Bitpub
+Author URI: http://themeforest.net/user/bitpub
+Version: 1.0.1
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
+
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/ 
+
+/* Field 1 Post Changes */
+/* Nav Bar Layout Changes*/
+
+.sf-menu > li > a{
+    padding: 10px 4px;
+}

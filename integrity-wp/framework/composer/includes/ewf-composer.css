@@ -1,0 +1,467 @@
+
+/*----- Composer Misc ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/			
+
+
+	/* 	Hide - Composer Responsive settings
+	---------------------------------------------------------------------------------------*/
+	.wpb_el_type_column_offset 																{ display:none; }
+
+	/* 	Hide - Composer Website Button
+	---------------------------------------------------------------------------------------*/
+	.vc_navbar-header 																		{ display:none; }		
+
+	
+	/* 	Hide - Add column button
+	---------------------------------------------------------------------------------------*/	
+	.controls.controls_row .vc_control.column_add 											{  } 		
+
+
+	/* 	Hide Composer Notice
+	---------------------------------------------------------------------------------------*/
+	#wpbody-content .updated.vc-license-activation-notice 									{ display:none; }		
+
+
+	
+	/* 	Composer Admin button
+	---------------------------------------------------------------------------------------*/
+	.wpb-elements-list-modal .wpb-content-layouts li 										{ background:#FCFCFC !important; }
+	.composer-switch a																		{ border-radius: 0 3px 3px 0; }
+
+	
+	
+	/* 	Composer Row Options
+	---------------------------------------------------------------------------------------*/
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper 											{ position:relative; }
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.ewf_row_title 		{ position:absolute;top:-24px;background:#E6E6E6;color:#BBBBBB;border-radius:3px 3px 0 0;display:block;width:100px;height:24px;right:140px;text-align:center;line-height:24px;font-size:12px;opacity:0;transition:all .3s; }	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.overlay   			{ display:none; }
+	
+	.wpb_vc_row.wpb_sortable.ewf-row-full-width .wpb_vc_param_value.ewf_row_title 			{ opacity:1; }
+	.wpb_vc_row.wpb_sortable.ewf-row-full-width > .controls .vc_row_layouts 				{ display:none; }
+	.wpb_vc_param_value.wpb-textinput.ewf_row_title 										{ display:none; }
+	
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.fullwidth  			{ display:none; }
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.nospacing  			{ display:none; }
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.stretch  				{ display:none; }
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.font_color  			{ display:none; }
+	.wpb_vc_row.wpb_sortable .wpb_element_wrapper .wpb_vc_param_value.parallax.checkbox 	{ display:none; }
+	.wpb_element_wrapper .wpb_vc_param_value.row_id 										{ display:none; }
+	
+	.vc_shortcodes_container > .controls_column 											{ z-index:99; }
+	.admin_label_css_animation 																{ display:none; }
+
+	
+
+	/* 	Composer Tabs Fix
+	---------------------------------------------------------------------------------------*/
+	#vc-edit-form-tabs.vc-tabs .ui-tabs-nav 												{ border-radius:0;background:#eee;border-left:none !important;border-right:none !important;border-top:none !important;border-bottom:1px solid #DDDDDD;margin-left:0 !important;padding-right:0 !important; }
+	
+	
+
+	
+/*----- Composer Components ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/			
+
+	
+	/* EWF - Component Message
+	---------------------------------------------------------------------------------------*/
+	.wpb_ewf-message .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-message.png'); }
+	.wpb-content-layouts .icon-wpb-ewf-message 												{ background-image:url('../../composer/includes/icons/ewf-component-message.png');top: 14px;height:52px; }
+	.wpb_ewf-message.wpb_content_element .wpb_vc_param_value.content 						{ display:block; }
+	.wpb_ewf-message .wpb_vc_param_value 													{ display:none; }
+	.wpb_ewf-message .wpb_vc_param_value.type 												{ display:none; }
+	
+	
+	/* EWF - Component Divider
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-divider 													{ background-image:url('../../composer/includes/icons/ewf-component-divider.png');top: 14px;height:52px; }
+	.wpb_ewf-divider .vc_element-icon														{ background-image:url('../../composer/includes/icons/ewf-component-divider.png'); }
+	.wpb_ewf-divider .wpb_vc_param_value.height 											{ display:none; }
+	.wpb_ewf-divider .wpb_vc_param_value.css 												{ display:none; }
+	
+	
+	
+	/* EWF - Component Headline
+	---------------------------------------------------------------------------------------*/
+	.wpb_ewf-headline .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-headline.png'); }
+	.vc_element-icon.icon-wpb-ewf-headline 													{ background-image:url('../../composer/includes/icons/ewf-component-headline.png');top: 14px;height:52px; }
+	.wpb_ewf-headline.wpb_content_element .wpb_vc_param_value.details.textfield 			{ display:none; }
+	.wpb_ewf-headline.wpb_content_element .wpb_vc_param_value.title 						{ display:block; }
+	.wpb_ewf-headline.wpb_content_element .wpb_vc_param_value 								{ display:none; }
+	
+	
+	
+	/* EWF - Component Button
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-button													{ background-image:url('../../composer/includes/icons/ewf-component-button.png');top: 14px;height:52px; }
+	.wpb_ewf-button .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-button.png'); }
+	.wpb_ewf-button .wpb_element_title 														{ line-height:32px; }
+	.wpb_ewf-button .wpb_vc_param_value 													{ display:none; }
+	
+	
+	/* EWF - Component Pricing Table
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-pricing-item												{ background-image:url('../../composer/includes/icons/ewf-component-pricing-table-item.png');top: 14px;height:52px; }
+	.wpb_ewf-pricing-item .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-pricing-table-item.png'); }
+	.wpb_ewf-pricing-item.wpb_content_element .wpb_vc_param_value.plan 						{ display:block;line-height:11px; }
+	.wpb_ewf-pricing-item.wpb_content_element .wpb_vc_param_value 							{ display:none; }
+
+	
+	/* EWF - Component Progress Bar
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-progress 													{ background-image:url('../../composer/includes/icons/ewf-component-progress.png');top: 14px;height:52px; }
+	.wpb_ewf-progress .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-progress.png'); }
+	.wpb_ewf-progress .wpb_vc_param_value 													{ display:none; }
+	.wpb_ewf-progress .wpb_vc_param_value.title 											{ display:block; }
+	
+	
+	/* EWF - Component Milestone
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-milestone 												{ background-image:url('../../composer/includes/icons/ewf-component-milestone.png');top: 14px;height:52px; }
+	.wpb_ewf-milestone .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-milestone.png'); }
+	.wpb_ewf-milestone .wpb_vc_param_value.icon 											{ display:none; }
+	.wpb_ewf-milestone .wpb_vc_param_value.style 											{ display:none; }
+	.wpb_ewf-milestone .wpb_vc_param_value.number 											{ display:none; }
+	.wpb_ewf-milestone .wpb_vc_param_value.speed 											{ display:none; }
+	.wpb_ewf-milestone .wpb_vc_param_value.symbol 											{ display:none; }	
+	.wpb_ewf-milestone .wpb_vc_param_value.css 												{ display:none; }	
+	
+	
+	/* EWF - Component Piechart
+	---------------------------------------------------------------------------------------*/		
+	.wpb_ewf-piechart .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-piechart.png'); }
+	.vc_element-icon.icon-wpb-ewf-piechart 													{ background-image:url('../../composer/includes/icons/ewf-component-piechart.png');top: 14px;height:52px; }
+	.wpb_ewf-piechart .wpb_vc_param_value.title 											{ display:block;line-height:11px; }
+	.wpb_ewf-piechart .wpb_vc_param_value 													{ display:none; }
+	
+	
+	/* EWF - Component Team member
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-team-member 												{ background-image:url('../../composer/includes/icons/ewf-component-team-member.png');top: 14px;height:52px; }
+	.wpb_ewf-team-member .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-team-member.png'); }
+	.wpb_ewf-team-member .wpb_vc_param_value.name 											{ display:inline-block;font-weight:bold;font-size:12px;font-style:italic; }
+	.wpb_ewf-team-member .wpb_vc_param_value.name:after 									{ content:"  -   "; }
+	.wpb_ewf-team-member .wpb_vc_param_value.job_title 										{ display:inline-block;font-size:12px;font-style:italic;padding-left:5px; }
+	.wpb_ewf-team-member .wpb_vc_param_value												{ display:none; }
+	
+	
+	/* EWF - Component Testimonial
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-testimonial 												{ background-image:url('../../composer/includes/icons/ewf-component-testimonial.png');top: 14px;height:52px; }
+	.wpb_ewf-testimonial .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-testimonial.png'); }
+	.wpb_ewf-testimonial .wpb_vc_param_value.attach_image									{ display:none; }
+	.wpb_ewf-testimonial .wpb_vc_param_value.css											{ display:none; }
+	
+	
+	/* EWF - Component Portfolio Isotope
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-portfolio-isogrid 										{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-isogrid.png');top: 14px;height:52px; }
+	.wpb_portfolio-isogrid .vc_element-icon 												{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-isogrid.png'); }
+	.wpb_portfolio-isogrid .wpb_element_title 												{ line-height: 32px; }
+	.wpb_portfolio-isogrid .wpb_vc_param_value 												{ display:none; }
+
+	
+	/* EWF - Component Portfolio List
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-portfolio-list 											{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-list-details.png');top: 14px;height:52px; }
+	.wpb_ewf-portfolio-list .vc_element-icon												{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-list-details.png'); }
+	.wpb_ewf-portfolio-list .wpb_element_title 												{ line-height: 32px; }
+	.wpb_ewf-portfolio-list.wpb_content_element .wpb_vc_param_value 						{ display:none; }
+	
+		
+	/* EWF - Component Portfolio Slider
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-portfolio-slider 											{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-slider.png');top: 14px;height:52px; }
+	.wpb_ewf-portfolio-slider .vc_element-icon												{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-slider.png'); }
+	.wpb_ewf-portfolio-slider .wpb_element_title 											{ line-height: 32px; }
+	.wpb_ewf-portfolio-slider.wpb_content_element .wpb_vc_param_value 						{ display:none; }
+	
+	
+	/* EWF - Component Portfolio Parallax
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-portfolio-parallax										{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-parallax.png');top: 14px;height:52px; }
+	.wpb_ewf-portfolio-parallax .vc_element-icon 											{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-parallax.png'); }
+	.wpb_ewf-portfolio-parallax .wpb_element_title 											{ line-height: 32px; }
+	.wpb_ewf-portfolio-parallax .wpb_vc_param_value 										{ display:none; }
+	
+	
+	/* EWF - Component Portfolio Strip
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-portfolio-strip											{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-strip.png');top: 14px;height:52px; }
+	.wpb_ewf-portfolio-strip .vc_element-icon 												{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-strip.png'); }
+	.wpb_ewf-portfolio-strip .wpb_element_title 											{ line-height: 32px; }
+	.wpb_ewf-portfolio-strip .wpb_vc_param_value 											{ display:none; }
+
+	/* EWF - Component Countdown
+	---------------------------------------------------------------------------------------*/	
+	.vc_element-icon.icon-wpb-ewf-countdown													{ background-image:url('../../composer/includes/icons/ewf-component-countdown.png');top: 14px;height:52px; }
+	.wpb_ewf-countdown .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-countdown.png'); }
+	.wpb_ewf-countdown .wpb_element_title 													{ line-height: 32px; }
+	.wpb_ewf-countdown .wpb_vc_param_value 													{ display:none; }
+	
+
+	/* EWF - Component Portfolio Grid
+	---------------------------------------------------------------------------------------*/	
+	.wpb_ewf-portfolio-grid .vc_element-icon 												{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-grid.png'); }
+	.vc_element-icon.icon-wpb-ewf-portfolio-grid 											{ background-image:url('../../composer/includes/icons/ewf-component-portfolio-grid.png');top: 14px;height:52px; }
+	.wpb_ewf-portfolio-grid .wpb_element_title 												{ line-height: 32px; }
+	.wpb_ewf-portfolio-grid .wpb_vc_param_value 											{ display:none; }
+	
+	
+	/* EWF - Component VC Spacer
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ui-empty_space 												{ background-image:url('../../composer/includes/icons/ewf-component-spacer.png');background-position:0 0;top: 14px;height:52px; }
+	.wpb_vc_empty_space .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-spacer.png');background-position:0 0; }	
+
+	
+	/* EWF - Component Service
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-service													{ background-image:url('../../composer/includes/icons/ewf-component-logo.png');top: 14px;height:52px; }
+	.wpb_ewf-service .vc_element-icon														{ background-image:url('../../composer/includes/icons/ewf-component-logo.png'); }
+	.wpb_ewf-service .wpb_element_title 													{ line-height: 32px; }
+	.wpb_ewf-service .wpb_vc_param_value 													{ display:none; }
+	
+
+	/* EWF - Component Client Logo
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-client-logo												{ background-image:url('../../composer/includes/icons/ewf-component-logo.png');top: 14px;height:52px; }
+	.wpb_ewf-client-logo .vc_element-icon													{ background-image:url('../../composer/includes/icons/ewf-component-logo.png'); }
+	.wpb_ewf-client-logo .wpb_element_title 												{ line-height: 32px; }
+	.wpb_ewf-client-logo .wpb_vc_param_value 												{ display:none; }
+	
+
+	/* EWF - Component Map
+	---------------------------------------------------------------------------------------*/			
+	.vc_element-icon.icon-wpb-ewf-map														{ background-image:url('../../composer/includes/icons/ewf-component-maps.png');top: 14px;height:52px; }
+	.wpb_ewf-map .vc_element-icon 															{ background-image:url('../../composer/includes/icons/ewf-component-maps.png'); }
+	.wpb_ewf-map .wpb_vc_param_value.address 												{ display:block;line-height:11px; }
+	.wpb_ewf-map .wpb_vc_param_value 														{ display:none; }
+	
+	
+
+	/* EWF - Component Iconbox
+	---------------------------------------------------------------------------------------*/			
+	.vc_element-icon.icon-wpb-ewf-iconbox													{ background-image:url('../../composer/includes/icons/ewf-component-iconbox.png');top: 14px;height:52px; }
+	.wpb_ewf-iconbox .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-iconbox.png'); }
+	.wpb_ewf-iconbox .wpb_vc_param_value.title 												{ display:block;line-height:11px; }
+	.wpb_ewf-iconbox .wpb_vc_param_value.plan 												{ display:block;line-height:11px; }
+	.wpb_ewf-iconbox .wpb_vc_param_value 													{ display:none; }
+
+	
+	
+	/* EWF - Component Social Icons
+	---------------------------------------------------------------------------------------*/				
+	.vc_element-icon.icon-wpb-ewf-social													{ background-image:url('../../composer/includes/icons/ewf-component-social.png');top: 14px;height:52px; }
+	.wpb_ewf-social-icons .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-social.png'); }
+	.wpb_ewf-social-icons .wpb_element_title 												{ line-height: 32px; }
+	.wpb_ewf-social-icons .wpb_vc_param_value 												{ display:none; }
+	
+	
+	
+	/* EWF - Component Animation
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-animation													{ background-image:url('../../composer/includes/icons/ewf-component-animate.png');background-position:0 0 !important;top: 14px;height:52px; }
+	.wpb_ewf_animation .icon-wpb-ewf-animation 												{ background-image:url('../../composer/includes/icons/ewf-component-animate.png');background-position:20px 20px; }
+	.wpb_ewf_animation > .wpb_element_wrapper > .wpb_vc_param_value 						{ display:none; }
+	
+	
+	/* EWF - Component Process Horizontal
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-process-horizontal										{ background-image:url('../../composer/includes/icons/ewf-component-process-horizontal.png');background-position:0 0 !important;top: 14px;height:52px; }
+	.wpb_ewf_processh_group .vc_element-icon 												{ background-image:url('../../composer/includes/icons/ewf-component-process-horizontal.png');background-position:20px 20px; }
+	.wpb_ewf_processh_group .wpb_vc_param_value.plan 										{ display:block;line-height:11px; }
+	.wpb_ewf_processh_group .wpb_vc_param_value 											{ display:none; }
+
+	.vc_element-icon.icon-wpb-ewf-processh-item 											{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png');background-position:0 0;top: 14px;height:52px; }
+	.wpb_ewf_processh_item .vc_element-icon  												{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png'); } 
+	.wpb_ewf_processh_item .wpb_vc_param_value.title 										{ font-weight:bold;line-height:32px; }
+	.wpb_ewf_processh_item .wpb_vc_param_value.icon											{ display:none; }
+	.wpb_ewf_processh_item .wpb_vc_param_value.color										{ display:none; }
+	.wpb_ewf_processh_item .wpb_element_wrapper 											{ line-height:36px; }	
+	
+	/* EWF - Component Process Horizontal
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-process-vertical											{ background-image:url('../../composer/includes/icons/ewf-component-process-vertical.png');background-position:0 0 !important;top: 14px;height:52px; }
+	.wpb_ewf_processv_group .vc_element-icon 												{ background-image:url('../../composer/includes/icons/ewf-component-process-vertical.png');background-position:20px 20px; }
+	.wpb_ewf_processv_group .wpb_vc_param_value.plan 										{ display:block;line-height:11px; }
+	.wpb_ewf_processv_group .wpb_vc_param_value 											{ display:none; }
+
+	.vc_element-icon.icon-wpb-ewf-processv-item 											{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png');background-position:0 0;top: 14px;height:52px; }
+	.wpb_ewf_processv_item .vc_element-icon  												{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png'); } 
+	.wpb_ewf_processv_item .wpb_vc_param_value.title 										{ font-weight:bold;line-height:32px; }
+	.wpb_ewf_processv_item .wpb_vc_param_value.icon											{ display:none; }
+	.wpb_ewf_processv_item .wpb_vc_param_value.color										{ display:none; }
+	.wpb_ewf_processv_item .wpb_element_wrapper 											{ line-height:36px; }	
+		
+	
+	/* EWF - Component Timeline
+	---------------------------------------------------------------------------------------*/
+	.vc_element-icon.icon-wpb-ewf-timeline													{ background-image:url('../../composer/includes/icons/ewf-component-timeline.png');background-position:0 0 !important;top: 14px;height:52px; }
+	.wpb_ewf_timeline .vc_element-icon 														{ background-image:url('../../composer/includes/icons/ewf-component-timeline.png');background-position:20px 20px; }
+	.wpb_ewf_timeline .wpb_vc_param_value.plan 												{ display:block;line-height:11px; }
+	.wpb_ewf_timeline .wpb_vc_param_value 													{ display:none; }
+
+	.vc_element-icon.icon-wpb-ewf-timeline-item 											{ background-image:url('../../composer/includes/icons/ewf-component-timeline-item.png');background-position:0 0;top: 14px;height:52px; }
+	.wpb_ewf_timeline_item .vc_element-icon  												{ background-image:url('../../composer/includes/icons/ewf-component-timeline-item.png'); } 
+	.wpb_ewf_timeline_item .wpb_vc_param_value.title 										{ font-weight:bold;line-height:32px; }
+	.wpb_ewf_timeline_item .wpb_vc_param_value.icon											{ display:none; }
+	.wpb_ewf_timeline_item .wpb_vc_param_value.color										{ display:none; }
+	.wpb_ewf_timeline_item .wpb_element_wrapper 											{ line-height:36px; }
+	
+	
+	
+	
+
+	
+	
+/*----- Composer Params ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/			
+	
+	
+	/* EWF - Param Option
+	---------------------------------------------------------------------------------------*/
+	.ewf-ui-param-options-wrapper 															{  } 
+	.ewf-ui-param-options																	{ background:#eee; }
+	.ewf-ui-param-options-item																{ width:90px;cursor:pointer;opacity:.5;background:#E7E7E7;float:left;display:block;margin-right:2px;padding:2px;border-radius:3px;overflow:hidden;transition:all .4s;  }
+	.ewf-ui-param-options-item:hover 														{ opacity:1; }
+	.ewf-ui-param-options-item.ewf-state-active												{ opacity:1; }
+	.ewf-ui-param-options-item div 															{ height:70px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background-color: #cacaca;-webkit-box-shadow: 0 0 5px rgba(0,0,0,.15);-moz-box-shadow: 0 0 5px rgba(0,0,0,.15);box-shadow: 0 0 5px rgba(0,0,0,.15);background-image: -webkit-linear-gradient(top, #fff, #f6f6f6);background-image: -moz-linear-gradient(top, #fff, #f6f6f6);background-image: -o-linear-gradient(top, #fff, #f6f6f6);background-image: linear-gradient(to bottom, #fff, #f6f6f6);}
+	.ewf-ui-param-options-item > span 														{ display:block;text-align:center;height:30px;line-height:30px; }
+	.ewf-ui-param-options-item div span 													{ display:block;background:transparent;height:70px; }
+	
+	
+	.ewf-ui-param-options-item.ewf-row-overlay-transparent div span							{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-overlay.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-row-overlay-pattern div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-overlay.png") no-repeat 0 -70px; }
+	
+	
+	.ewf-ui-param-options-item.ewf-timeline-style-1 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-timeline.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-timeline-style-2 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-timeline.png") no-repeat 0 -70px; }
+		
+	
+	.ewf-ui-param-options-item.ewf-portfolio-style-1 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-isogrid.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-portfolio-style-2 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-isogrid.png") no-repeat 0 -70px; }
+	.ewf-ui-param-options-item.ewf-portfolio-style-3 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-isogrid.png") no-repeat 0 -140px; }		
+	
+	
+	.ewf-ui-param-options-item.ewf-milestone-style-1 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-milestone.png") no-repeat 0 0px; }
+	.ewf-ui-param-options-item.ewf-milestone-style-2 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-milestone.png") no-repeat 0 -70px; }
+	.ewf-ui-param-options-item.ewf-milestone-style-3 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-milestone.png") no-repeat 0 -140px; }
+
+	
+	.ewf-ui-param-options-item.ewf-headline-style-1 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-headline.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-headline-style-2 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-headline.png") no-repeat 0 -70px; }
+	.ewf-ui-param-options-item.ewf-headline-style-3 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-headline.png") no-repeat 0 -140px; }
+	.ewf-ui-param-options-item.ewf-headline-style-4 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-headline.png") no-repeat 0 -210px; }
+	
+	
+	.ewf-ui-param-options-item.ewf-testimonial-style-1 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-testimonial.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-testimonial-style-2 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-testimonial.png") no-repeat 0 -70px; }
+	.ewf-ui-param-options-item.ewf-testimonial-style-3 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-testimonial.png") no-repeat 0 -140px; }
+	.ewf-ui-param-options-item.ewf-testimonial-style-4 div span								{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-testimonial.png") no-repeat 0 -210px; }
+	
+	
+	.ewf-ui-param-options-item.ewf-iconbox-style-1 div span									{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-iconbox.png") no-repeat 0 0; }
+	.ewf-ui-param-options-item.ewf-iconbox-style-2 div span									{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-iconbox.png") no-repeat 0 -70px; }
+	.ewf-ui-param-options-item.ewf-iconbox-style-3 div span									{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-iconbox.png") no-repeat 0 -140px; }
+	.ewf-ui-param-options-item.ewf-iconbox-style-4 div span									{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-iconbox.png") no-repeat 0 -210px; }
+	.ewf-ui-param-options-item.ewf-iconbox-style-5 div span									{ background:url("../../composer/params/ewf-param-image-select/icons/ewf-param-options-iconbox.png") no-repeat 0 -280px; }
+ 
+ 
+ 
+	/* EWF - Param Icon
+	---------------------------------------------------------------------------------------*/
+	.ewf-icon-filters 																		{ padding:3px; border:1px solid #bbb;margin-top:0;margin-left:70px;margin-left:0;margin-top:-1px;overflow-y:scroll;height:185px;display:none; }
+	.ewf-icon-filters i 																	{ font-size:24x;cursor:pointer; }
+	.ewf-icon-filters li 																	{ padding:2px;border: 1px solid #eee;width:24px;height:24px;margin:2px;float:left;font-size:24px;text-align:center; }
+	.ewf-icon-filters li.ewf-icon-set 														{ clear:both;width:95%;border:1px solid #fff;text-align:left;font-family:"Open Sans", Arial, sans-serif;font-size:20px;margin-bottom:5px; }
+	.ewf-icon-filters li.ewf-icon-set.mt 													{ padding-top:10px; }
+	.ewf-icon-filters li.selected  															{ background:gold; }
+	
+	.ewf-icon-ct-wrapper 																	{ height:60px;position:relative; } 
+	.ewf-icon-ct-position 																	{ background:#fff;height:60px;width:60px;margin-right:10px;float:left;display:none; }
+	.ewf-icon-ct-selection 																	{ background:#eee;height:30px;width:100px;padding:5px;margin-right:10px;float:left;margin-top:10px; background-color: #F7F7F7;border: solid 1px rgba(0,0,0,0.2);background-image:url("images/param-icon-dropdown.png");background-repeat:no-repeat;background-position:85px center;border-radius:2px;cursor:pointer; }
+	.ewf-icon-ct-selection i 																{ font-size:30px; }
+	.ewf-icon-ct-position .pos 																{ border-radius:2px;width:10px;float:left;margin:5px;background:orange;cursor:pointer;height:10px;position:relative;z-index:150; }
+	.ewf-icon-ct-position .pos.ewf-icon-ct-center  											{ background:#eee; }
+	.ewf-icon-ct-position .border-square 													{ background:#eee;position:absolute;width:39px;top:10px;left:10px;bottom:10px;right:10px;border:1px dashed #bbb;z-index:99; }
+	
+	.ewf-icon-ct-wrapper .button-large 														{ display:block;float:left;margin-top:10px;height:40px !important;line-height:40px !important;padding-left:16px;padding-right:16px;margin-right:10px; }
+	.ewf-icon-ct-wrapper .button-large.ewf-icon-ct-cancel 									{ display:none; }
+	
+	
+	
+	/* EWF - Param Position
+	---------------------------------------------------------------------------------------*/
+	.ewf-position-box-wrapper 																{ width:100px;height:100px;background:#eee;border:1px solid #bbb;position:relative; }
+	.ewf-position-box-wrapper.inside 														{ }
+	
+	.ewf-position-box-wrapper .ewf-pb-top 													{ top:-7.5px;left:42.5px; }
+	.ewf-position-box-wrapper .ewf-pb-top-right 											{ top:-7.5px;right:-7.5px; }
+	.ewf-position-box-wrapper .ewf-pb-top-left 												{ top:-7.5px;left:-7.5px; }
+	.ewf-position-box-wrapper .ewf-pb-bottom 												{ bottom:-7.5px;left:42.5px; }
+	.ewf-position-box-wrapper .ewf-pb-bottom-left 											{ bottom:-7.5px;left:-7.5px; }
+	.ewf-position-box-wrapper .ewf-pb-bottom-right 											{ bottom:-7.5px;right:-7.5px; }
+	.ewf-position-box-wrapper .ewf-pb-left 													{ top:42.5px;left:-7.5px; }
+	.ewf-position-box-wrapper .ewf-pb-right 												{ top:42.5px;right:-7.5px; }
+	
+	.ewf-position-box > div 																{ background:orange;position:absolute;width:15px;height:15px;border-radius:3px;cursor:pointer; } 
+	.ewf-position-box > div.active 															{ background:green; }
+
+
+	/* EWF - Component Testimonial
+	---------------------------------------------------------------------------------------*/		
+	.vc_element-icon.icon-wpb-ewf-testimonial 												{ background-image:url('../../composer/includes/icons/ewf-component-testimonial.png');top: 14px;height:52px; }
+	.wpb_ewf-testimonial .vc_element-icon 													{ background-image:url('../../composer/includes/icons/ewf-component-testimonial.png'); }
+	.wpb_ewf-testimonial .wpb_vc_param_value												{ display:none; }
+	
+	.wpb_ewf-testimonial .wpb_vc_param_value.name 											{ display:inline-block;font-weight:Bold;margin-right:5px; }
+	.wpb_ewf-testimonial .wpb_vc_param_value.name:after 									{ content:", "; }
+	.wpb_ewf-testimonial .wpb_vc_param_value.description 									{ display:inline-block;clear:both; }
+	.wpb_ewf-testimonial .wpb_vc_param_value.content 										{ width:95%;line-height:25px;height:25px;overflow:hidden;font-size:11px;opacity:.8;display:block; }
+	.wpb_ewf-testimonial .wpb_vc_param_value.content:after 									{ content:"..."; }
+	
+ 
+ 
+ 	/* EWF - Slider Testimonials
+	---------------------------------------------------------------------------------------*/
+	
+	.vc_element-icon.icon-wpb-ewf-slider-testimonials 										{ background-image:url('../../composer/includes/icons/ewf-component-slider-testimonials.png');background-position: 0 0 !important;top: 14px;height:52px; }
+	.wpb_ewf_slider_testimonials .wpb_ewf-testimonial .vc_element-icon 						{ background-image:url('../../composer/includes/icons/ewf-component-testimonial-sub.png'); }
+	.wpb_ewf_slider_testimonials .wpb_ewf-testimonial .wpb_element_title 					{ overflow:hidden;width:40px;float:left;text-indent: -200px; }
+	.wpb_ewf_slider_testimonials .wpb_ewf-testimonial .wpb_vc_param_value.content			{ margin-top:-5px; }
+	
+ 
+	/* EWF - Process Vertical
+	
+	.wpb_ewf_processv_item.wpb_content_element .wpb_vc_param_value.title					{ font-weight:bold;line-height:32px; }
+	
+	.wpb-content-layouts .wpb-layout-element-button .wpb_ewf_processv_item					{ background-image:url('../../composer/includes/icons/ewf-component-process-vertical.png');top: 14px;height:52px; }
+	.wpb-content-layouts .wpb-layout-element-button .icon-wpb-ewf-process-vertical			{ background-image:url('../../composer/includes/icons/ewf-component-process-vertical.png');top: 14px;height:52px; }
+	.wpb_ewf_processv_group.vc_shortcodes_container 										{ background-image:url('../../composer/includes/icons/ewf-component-process-vertical.png');background-position:20px 20px; }
+	.wpb_ewf_processv_item.wpb_content_element .wpb_element_wrapper  						{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png'); } 
+	.wpb-content-layouts .wpb-layout-element-button .icon-wpb-ewf-processv-item 			{ background-image:url('../../composer/includes/icons/ewf-component-process-item.png');top: 14px;height:52px; }
+	
+	.wpb_ewf_processv_group.wpb_content_element .wpb_vc_param_value.plan 					{ display:block;line-height:11px; }
+	.wpb_ewf_processv_item.wpb_content_element .wpb_vc_param_value.style					{ display:none; }
+	.wpb_ewf_processv_item.wpb_content_element .wpb_vc_param_value.number					{ display:none; }
+	.wpb_ewf_processv_item.wpb_content_element .wpb_element_title							{ display:none; }
+	.wpb_ewf_processv_group.wpb_content_element .wpb_vc_param_value 						{ display:none; }
+	.wpb_ewf_processv_item.wpb_content_element .wpb_vc_param_value.icon						{ display:none; }
+	---------------------------------------------------------------------------------------*/
+
+	
+	
+	
+	/* EWF - Iconbox Slider
+	
+	.wpb_ewf-iconbox-slider.wpb_content_element > .wpb_element_wrapper 						{ background-image:url('../../composer/includes/icons/ewf-component-slider-iconbox.png'); }
+	.wpb-content-layouts .wpb-layout-element-button .icon-wpb-ewf-iconbox-slider 			{ background-image:url('../../composer/includes/icons/ewf-component-slider-iconbox.png');top: 14px;height:52px; }
+	.wpb_ewf_iconbox_slider .wpb_ewf-iconbox.wpb_content_element > .wpb_element_wrapper 	{ background-image:url('../../composer/includes/icons/ewf-component-iconbox-slider-sub.png'); }
+	.wpb_ewf_iconbox_slider.vc_shortcodes_container 										{ background-image:url('../../composer/includes/icons/ewf-component-slider-iconbox.png'); }
+	---------------------------------------------------------------------------------------*/
+	
+
+	
+	/* EWF - Process Item
+	
+	.wpb_ewf-process-item.wpb_content_element > .wpb_element_wrapper 						{ background-image:url('../../composer/includes/icons/ewf-component-process.png'); }
+	.wpb-content-layouts .wpb-layout-element-button .icon-wpb-ewf-process 					{ background-image:url('../../composer/includes/icons/ewf-component-process.png');top: 14px;height:52px; }
+	---------------------------------------------------------------------------------------*/
+	
+	
