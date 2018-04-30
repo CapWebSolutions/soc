@@ -107,8 +107,5 @@ Thumbs.db
 !safari-pinned-tab.svg
 
 # track these mu-plugins, plugins, and themes
-!wp-content/themes/backup_2018-04-28-1040_Systems_of_Change_7ce925177822-themes/themes/integrity-wp/
-#!wp-content/themes/integrity-wp/
-!wp-content/themes/backup_2018-04-28-1040_Systems_of_Change_7ce925177822-themes/themes/integrity-wp-child/
-#!wp-content/themes/integrity-wp-child/
-C:\Users\Matt\Local Sites\systemsofchange\app\public\wp-content\themes\backup_2018-04-28-1040_Systems_of_Change_7ce925177822-themes\themes
+!wp-content/themes/integrity-wp/
+!wp-content/themes/integrity-wp-child/
