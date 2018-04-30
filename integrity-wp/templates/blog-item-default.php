@@ -72,11 +72,11 @@
 		if ($ewf_image_id){
 			if (!$single_post){
 			
-				echo  '<div class="blog-post-thumb">';
-					if ($ewf_image_id){
-						echo  '<img src="'.$ewf_image_url.'" alt="" />';
-					}
-				echo  '</div><!-- end .blog-post-thumb -->';
+				// echo  '<div class="blog-post-thumb">';
+					//if ($ewf_image_id){
+					//	echo  '<img src="'.$ewf_image_url.'" alt="" />';
+					//}
+				//echo  '</div><!-- end .blog-post-thumb -->';
 			
 				echo '<div class="blog-post-info">';
 					echo get_the_date('d') . '<small>'.get_the_date('M').'</small>';
@@ -103,7 +103,7 @@
 		}
 			
 		if (!$single_post){
-			echo '<div class="blog-post-title">';
+			echo '<div class="blog-post-title" style="margin: 30px 0 25px 70px;">';
 			echo  '<h4><a href="' . get_permalink() . '">'.get_the_title($post->ID).'</a></h4>' ;
 					 
 			echo '<p><em>' .
@@ -120,7 +120,8 @@
 
 			global $more;
 			$more = false; 
-			echo  '<p>'.do_shortcode(get_the_content('&nbsp;')).'</p>';   
+			// echo  '<p>'.do_shortcode(get_the_content('&nbsp;')).'</p>';   
+			echo  '<p>'.do_shortcode(the_excerpt()).'</p>';   
 			$more = true;
 		}
 

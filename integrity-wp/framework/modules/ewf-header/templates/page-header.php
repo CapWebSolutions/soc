@@ -127,7 +127,7 @@
 								if(array_key_exists('icon', $ewf_modHeader_meta) && $ewf_modHeader_meta['icon']) {
 									echo '<i class="'.$ewf_modHeader_meta['icon'].'"></i>';
 								}
-								
+								if ( 'Posts' == $ewf_modHeader_meta['title'] ) $ewf_modHeader_meta['title'] = 'Events'; // Hack
 								echo '<h3 style="'.$ewf_modHeader_FontColor.'">'.$ewf_modHeader_meta['title'].'</h3>'; 
 								// echo '<p>'.$ewf_modHeader_meta['description'].'</p>'; 
 								
