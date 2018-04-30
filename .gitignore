@@ -107,5 +107,5 @@ Thumbs.db
 !safari-pinned-tab.svg
 
 # track these mu-plugins, plugins, and themes
-!wp-content/themes/integrity-wp/
-!wp-content/themes/integrity-wp-child/
+!wp-content/themes/integrity-wp
+!wp-content/themes/integrity-wp-child
